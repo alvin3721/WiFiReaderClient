@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/addReader"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="添加读卡器"/>
+    <item
+        android:id="@+id/deleteReader"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="删除读卡器"/>
+
+</menu>
