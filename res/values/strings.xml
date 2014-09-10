@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-
-    <string name="app_name">WiFi Reader</string>
-    <string name="readCard">读卡</string>
-    <string name="writeCard">写卡</string>
-
-</resources>
