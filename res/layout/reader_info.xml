@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	<LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        
+	    <TextView
+	        android:id="@+id/tVIpAddr"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="IP  地  址:"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	    <EditText
+	        android:id="@+id/eTIpAddr"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:text="192.168.1.251">
+	    </EditText>
+	</LinearLayout>
+	<LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        
+	    <TextView
+	        android:id="@+id/tVPort"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="端       口:"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	    <EditText
+	        android:id="@+id/eTPort"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:text="50000"
+	        >
+	    </EditText>
+	</LinearLayout>
+	<LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        
+	    <TextView
+	        android:id="@+id/tVReaderPSN"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="工  序  号:"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    	<EditText
+	        android:id="@+id/eTReaderPSN"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:inputType="numberSigned"
+	        android:text="1" >
+
+        	<requestFocus />
+    	</EditText>
+	</LinearLayout>
+	<LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        
+	    <TextView
+	        android:id="@+id/tVName"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="设  备  名:"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	    <EditText
+	        android:id="@+id/eTName"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:text="读卡机1">
+	    </EditText>
+	</LinearLayout>
+	<LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+	    <TextView android:id="@+id/tVMode"
+             android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="上传模式:"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+  		<Spinner android:id="@+id/spMode"
+            android:layout_width="match_parent"
+	        android:layout_height="wrap_content"></Spinner>
+	</LinearLayout>
+	<LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        
+	    <TextView
+	        android:id="@+id/tVBlock"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="块       号:"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	    <EditText
+	        android:id="@+id/eTBlock"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:text="01"
+	        >
+	    </EditText>
+	</LinearLayout>
+	<LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        
+	    <TextView
+	        android:id="@+id/tVBPassword"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="扇区密码:"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	    <EditText
+	        android:id="@+id/eTPassword"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:text="FFFFFFFFFFFFFF"
+	        >
+	    </EditText>
+	</LinearLayout>
+	<LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <Button
+	    android:id="@+id/btnSave"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="保存" />
+        <Button
+	    android:id="@+id/btnCancel"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="取消" />
+	    
+	</LinearLayout>
+
+</LinearLayout>

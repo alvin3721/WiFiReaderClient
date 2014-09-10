@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        
+	    <TextView
+	        android:id="@+id/tVReadBlockNum"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="块号:"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	    <EditText
+	        android:id="@+id/eTReadBlockNum"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:inputType="numberSigned"
+	        android:text="1" >
+	    </EditText>
+	</LinearLayout>
+	<LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        
+	    <TextView
+	        android:id="@+id/tVReadBlockPassword"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="密码："
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	    <EditText
+	        android:id="@+id/eTReadBlockPassword"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:text="FFFFFFFFFFFF" >
+	    </EditText>
+	</LinearLayout>
+
+	<TextView
+        android:id="@+id/tVReadData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="数据："
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/eTReadData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:enabled="false"
+        android:text="FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF" >
+    </EditText>
+    
+	<Button
+	    android:id="@+id/btnRead"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="读卡" />
+	
+</LinearLayout>
